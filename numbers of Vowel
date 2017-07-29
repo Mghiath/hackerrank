@@ -1,0 +1,11 @@
+s = input.strip()
+
+vowel = ['a', 'e', 'i', 'o', 'u']
+
+i = 0
+
+for char in s:
+    if char in vowel:
+        i += 1
+    
+print (i)
